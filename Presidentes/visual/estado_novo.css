@@ -1,0 +1,28 @@
+#novo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(assets/republicas/eravargas.jpg);
+}
+#estado_novo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#estado_novo h1 {
+  display: flex;
+  padding-bottom: 8%;
+}
+#linha1_estadonovo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 6%;
+}

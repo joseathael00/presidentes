@@ -1,0 +1,38 @@
+#velha {
+  display: flex;
+  flex-direction: column;
+  height: 140vh;
+  width: 100%;
+  padding-top: 2%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  background-image: url(assets/republicas/republicavelha.jpg);
+  background-size: cover;
+  justify-content: center;
+}
+#republica_velha {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0%;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#linha1-velha {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#linha2-velha {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#linha3-velha {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

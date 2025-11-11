@@ -1,0 +1,28 @@
+#populista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  height: 100vh;
+  width: 100%;
+  background-image: url(assets/republicas/populista.jpg);
+  background-size: cover;
+}
+#republica_populista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2%;
+  height: 100%;
+  width: 100%;
+}
+#linha1-populista {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#linha2-populista {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
