@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.conteudoRepublicas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding-top: 20px;
+  gap: 20px;
+  min-height: 100dvh;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+}
+.linha1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+  height: 90%;
+  width: 100%;
+}
+.linha2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+  height: 90%;
+  width: 100%;
+}
+.linha3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+  height: 90%;
+  width: 100%;
+}
+.texto1 {
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  color: rgb(173, 173, 173);
+}
+.texto2 {
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgb(109, 109, 109);
+  color: rgb(141, 141, 141);
+}
+.texto3 {
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgb(167, 167, 167);
+  color: rgb(226, 226, 226);
+}
+.presidentes {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  height: 350px;
+  width: 280px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(177, 228, 177);
+  border: 1px solid rgb(113, 163, 113);
+  border-radius: 20px;
+}
+.presidentes:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+.imgPresidentes {
+  height: 220px;
+  width: 200px;
+  border-radius: 5px;
+}
